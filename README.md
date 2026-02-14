@@ -61,32 +61,33 @@ Views: 4 analytical views
 
 ## PROJECT STRUCTURE
 dynamic-pricing-system/
-├── src/main/java/com/pricing/
-│   ├── config/
-|   ├── config/health
-│   ├── controller/
-│   ├── dto/
-|   |   ├── alert
-|   |   ├── analytics
-|   |   ├── auth
-|   |   ├── common
-|   |   ├── competitor
-|   |   ├── demand
-|   |   ├── inventory
-|   |   ├── jobexecution
-|   |   ├── pricing
-|   |   ├── product
-│   ├── entity/
-│   ├── repository/
-│   ├── service/
-│   ├── security/
-│   ├── scheduler/
-│   ├── engine/
-│   └── DynamicPricingApplication.java
-├── src/main/resources/
-│   ├── application.properties
-│   └── schema.sql
-└── pom.xml
+- ├── src/main/java/com/pricing/
+- │   ├── config/
+- |   ├── config/health
+- │   ├── controller/
+- │   ├── dto/
+- |   |   ├── alert
+- |   |   ├── analytics
+- |   |   ├── auth
+- |   |   ├── common
+- |   |   ├── competitor
+- |   |   ├── demand
+- |   |   ├── inventory
+- |   |   ├── jobexecution
+- |   |   ├── pricing
+- |   |   ├── product
+- │   ├── entity/
+- │   ├── repository/
+- │   ├── service/
+- │   ├── security/
+- │   ├── scheduler/
+- │   ├── engine/
+- │   └── DynamicPricingApplication.java
+- ├── src/main/resources/
+- │   ├── application.properties
+- │   └── schema.sql
+- └── pom.xml
+  
 ## 🚀 GETTING STARTED
 
 1. DATABASE SETUP:
@@ -381,4 +382,5 @@ For issues or questions:
 HAPPY PRICING! 🎯💰📈
 ══════════════════════════════════════════════════════════════════════
 \*/
+
 

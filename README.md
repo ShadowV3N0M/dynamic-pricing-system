@@ -60,22 +60,22 @@ Views: 4 analytical views
 - vw_competitor_comparison
 
 ## PROJECT STRUCTURE
-dynamic-pricing-system/
+Dynamic_Pricing_System/
 - ├── src/main/java/com/pricing/
 - │   ├── config/
-- |   ├── config/health
+- │   │   └── health/
 - │   ├── controller/
 - │   ├── dto/
-- |   |   ├── alert
-- |   |   ├── analytics
-- |   |   ├── auth
-- |   |   ├── common
-- |   |   ├── competitor
-- |   |   ├── demand
-- |   |   ├── inventory
-- |   |   ├── jobexecution
-- |   |   ├── pricing
-- |   |   ├── product
+- │   │   ├── alert/
+- │   │   ├── analytics/
+- │   │   ├── auth/
+- │   │   ├── common/
+- │   │   ├── competitor/
+- │   │   ├── demand/
+- │   │   ├── inventory/
+- │   │   ├── jobexecution/
+- │   │   ├── pricing/
+- │   │   └── product/
 - │   ├── entity/
 - │   ├── repository/
 - │   ├── service/
@@ -382,5 +382,6 @@ For issues or questions:
 HAPPY PRICING! 🎯💰📈
 ══════════════════════════════════════════════════════════════════════
 \*/
+
 
 
